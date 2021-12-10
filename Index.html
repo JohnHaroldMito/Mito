@@ -1,0 +1,577 @@
+<html>
+
+<head>
+
+<title>HOMEPAGE</title>
+
+</head>
+
+<link rel="stylesheet" href="csshome.css">
+<script src="https://kit.fontawesome.com/1d8d68cd8a.js" crossorigin="anonymous"></script>
+
+<!--------glitch effect------>
+<style>
+
+.welcome
+{
+  background-color:#0000;	
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .ark{
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+  font-size: 80px;
+  padding: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.welcome .ark:before,
+.welcome .ark:after {
+  padding: 40px;
+  color: white;
+  content: attr(data-text);
+  position: absolute;
+  background: #000000	;
+  width: 990px;
+  height: 100%;
+  background: black opacity 0.5;
+  overflow: hidden;
+  top: 0;
+}
+.welcome .ark:before{
+  left: 3px;
+  text-shadow: -5px 0 red;
+  animation: glitch-1 3s linear infinite reverse;
+}
+.welcome .ark:after{
+  left: -3px;
+  text-shadow: -5px 0 blue;
+  animation: glitch-2 0.5s linear infinite reverse;
+}
+@keyframes glitch-1 {
+  0% {
+    clip: rect(132px, auto, 101px, 30px);
+  }
+  5% {
+    clip: rect(17px, auto, 94px, 30px);
+  }
+  10% {
+    clip: rect(40px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(87px, auto, 82px, 30px);
+  }
+  20% {
+    clip: rect(137px, auto, 61px, 30px);
+  }
+  25% {
+    clip: rect(34px, auto, 14px, 30px);
+  }
+  30% {
+    clip: rect(133px, auto, 74px, 30px);
+  }
+  35% {
+    clip: rect(76px, auto, 107px, 30px);
+  }
+  40% {
+    clip: rect(59px, auto, 130px, 30px);
+  }
+  45% {
+    clip: rect(29px, auto, 84px, 30px);
+  }
+  50% {
+    clip: rect(22px, auto, 67px, 30px);
+  }
+  55% {
+    clip: rect(67px, auto, 62px, 30px);
+  }
+  60% {
+    clip: rect(10px, auto, 105px, 30px);
+  }
+  65% {
+    clip: rect(78px, auto, 115px, 30px);
+  }
+  70% {
+    clip: rect(105px, auto, 13px, 30px);
+  }
+  75% {
+    clip: rect(15px, auto, 75px, 30px);
+  }
+  80% {
+    clip: rect(66px, auto, 39px, 30px);
+  }
+  85% {
+    clip: rect(133px, auto, 73px, 30px);
+  }
+  90% {
+    clip: rect(36px, auto, 128px, 30px);
+  }
+  95% {
+    clip: rect(68px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(14px, auto, 100px, 30px);
+  }
+}
+@keyframes glitch-2 {
+  0% {
+    clip: rect(129px, auto, 36px, 30px);
+  }
+  5% {
+    clip: rect(36px, auto, 4px, 30px);
+  }
+  10% {
+    clip: rect(85px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(91px, auto, 91px, 30px);
+  }
+  20% {
+    clip: rect(148px, auto, 138px, 30px);
+  }
+  25% {
+    clip: rect(38px, auto, 122px, 30px);
+  }
+  30% {
+    clip: rect(69px, auto, 54px, 30px);
+  }
+  35% {
+    clip: rect(98px, auto, 71px, 30px);
+  }
+  40% {
+    clip: rect(146px, auto, 34px, 30px);
+  }
+  45% {
+    clip: rect(134px, auto, 43px, 30px);
+  }
+  50% {
+    clip: rect(102px, auto, 80px, 30px);
+  }
+  55% {
+    clip: rect(119px, auto, 44px, 30px);
+  }
+  60% {
+    clip: rect(106px, auto, 99px, 30px);
+  }
+  65% {
+    clip: rect(141px, auto, 74px, 30px);
+  }
+  70% {
+    clip: rect(20px, auto, 78px, 30px);
+  }
+  75% {
+    clip: rect(133px, auto, 79px, 30px);
+  }
+  80% {
+    clip: rect(78px, auto, 52px, 30px);
+  }
+  85% {
+    clip: rect(35px, auto, 39px, 30px);
+  }
+  90% {
+    clip: rect(67px, auto, 70px, 30px);
+  }
+  95% {
+    clip: rect(71px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(83px, auto, 40px, 30px);
+  }
+}
+
+
+.am
+{
+  background-color:#999999;	
+  left: -100%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.am .deku{
+  position: relative;
+  color: white;	
+  font-weight: 800;
+  font-size: 80px;
+  padding: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.am .deku:before,
+.am .deku:after {
+  padding: 40px;
+  color: white;
+  content: attr(data-text);
+  position: absolute;
+  background: #999999;
+  width: 990px;
+  height: 100%;
+  background: black opacity 0.5;
+  overflow: hidden;
+  top: 0;
+}
+.am .deku:before{
+  left: 3px;
+  text-shadow: -5px 0 red;
+  animation: glitch-1 2s linear infinite reverse;
+}
+.am .deku:after{
+  left: -3px;
+  text-shadow: -5px 0 blue;
+  animation: glitch-2 0.6s linear infinite reverse;
+}
+@keyframes glitch-1 {
+  0% {
+    clip: rect(132px, auto, 101px, 30px);
+  }
+  5% {
+    clip: rect(17px, auto, 94px, 30px);
+  }
+  10% {
+    clip: rect(40px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(87px, auto, 82px, 30px);
+  }
+  20% {
+    clip: rect(137px, auto, 61px, 30px);
+  }
+  25% {
+    clip: rect(34px, auto, 14px, 30px);
+  }
+  30% {
+    clip: rect(133px, auto, 74px, 30px);
+  }
+  35% {
+    clip: rect(76px, auto, 107px, 30px);
+  }
+  40% {
+    clip: rect(59px, auto, 130px, 30px);
+  }
+  45% {
+    clip: rect(29px, auto, 84px, 30px);
+  }
+  50% {
+    clip: rect(22px, auto, 67px, 30px);
+  }
+  55% {
+    clip: rect(67px, auto, 62px, 30px);
+  }
+  60% {
+    clip: rect(10px, auto, 105px, 30px);
+  }
+  65% {
+    clip: rect(78px, auto, 115px, 30px);
+  }
+  70% {
+    clip: rect(105px, auto, 13px, 30px);
+  }
+  75% {
+    clip: rect(15px, auto, 75px, 30px);
+  }
+  80% {
+    clip: rect(66px, auto, 39px, 30px);
+  }
+  85% {
+    clip: rect(133px, auto, 73px, 30px);
+  }
+  90% {
+    clip: rect(36px, auto, 128px, 30px);
+  }
+  95% {
+    clip: rect(68px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(14px, auto, 100px, 30px);
+  }
+}
+@keyframes glitch-2 {
+  0% {
+    clip: rect(129px, auto, 36px, 30px);
+  }
+  5% {
+    clip: rect(36px, auto, 4px, 30px);
+  }
+  10% {
+    clip: rect(85px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(91px, auto, 91px, 30px);
+  }
+  20% {
+    clip: rect(148px, auto, 138px, 30px);
+  }
+  25% {
+    clip: rect(38px, auto, 122px, 30px);
+  }
+  30% {
+    clip: rect(69px, auto, 54px, 30px);
+  }
+  35% {
+    clip: rect(98px, auto, 71px, 30px);
+  }
+  40% {
+    clip: rect(146px, auto, 34px, 30px);
+  }
+  45% {
+    clip: rect(134px, auto, 43px, 30px);
+  }
+  50% {
+    clip: rect(102px, auto, 80px, 30px);
+  }
+  55% {
+    clip: rect(119px, auto, 44px, 30px);
+  }
+  60% {
+    clip: rect(106px, auto, 99px, 30px);
+  }
+  65% {
+    clip: rect(141px, auto, 74px, 30px);
+  }
+  70% {
+    clip: rect(20px, auto, 78px, 30px);
+  }
+  75% {
+    clip: rect(133px, auto, 79px, 30px);
+  }
+  80% {
+    clip: rect(78px, auto, 52px, 30px);
+  }
+  85% {
+    clip: rect(35px, auto, 39px, 30px);
+  }
+  90% {
+    clip: rect(67px, auto, 70px, 30px);
+  }
+  95% {
+    clip: rect(71px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(83px, auto, 40px, 30px);
+  }
+}
+</style>
+<body>
+
+<!---------header------->
+
+<header>
+<div class="gs">
+<a href="Index.html" class="RYUUJI"> 
+PROJECT: UPGRADE</a></div>
+
+<div class="navigation">
+<ul>
+ <li><a href="Index.html">Home<i class="fas fa-home"></i></a></li>
+ <li><a href="Product.html">Product<i class="fas fa-shopping-bag"></i></a>
+      <div class="products">
+         <ul>
+		  <li><a href="ryproduct.html">AMD RYZEN</a></li>
+		  <li><a href="rxproduct.htm">AMD RADEON</a></li>
+		  <li><a href="nvproducts.html">NVIDIA GRAPHICS</a></li>
+		 </ul>
+     </div>
+ </li>
+ <li><a href="#">About US<i class="fas fa-address-card"></i></a></li>
+ <li><a href="#">Membership<i class="fas fa-coins"></i></a>
+  <div class="member">
+         <ul>
+		  <li><a href="register.html">Sign-Up</a></li>
+		  <li><a href="points.html">P-UPGRADE Points</a></li>
+		 </ul>
+     </div>
+</li>
+<li><a href="Login.html">Account<i class="fas fa-user-circle"></i></i></a>
+</ul>
+</div>
+</div>
+</header>
+
+<!------glitch----->
+<div class="welcome">
+ <h2 class="ark" data-text="welcome to greatness">welcome to greatness
+ </h2>
+</div>
+
+
+<div class="pyke">
+<div class="box">
+<h4>RISE UP</h4>
+<div class="p1">
+<p>We, PROJECT: UPGRADE head-on take up the challenge to deliver good quality service and products. We want to give our 
+customer products that is lower than the srp. And we likely to share that we are having a member ship account that have 
+a plenty of benifits.<br><br>
+ARE YOU READY TO TAKE UP THE CHALLENGE?
+<br><br>
+<hr>
+	
+</div>
+</p>
+</h4>
+</div>
+</div>
+
+
+
+<!---------parallax scrolling------->
+<div class="ryzen"></div>
+
+<!----offers--->
+<div class="pyke">
+
+<div class="amd">RYZEN</div>
+<div class="p2">
+<p>Ryzen is an AMD CPU aimed at the server, desktop, workstation, media center PC
+ and all-in-one markets. AMD’s Ryzen base models feature eight cores and 16-thread processing at 3.4Ghz
+ with 20MB cache, neural net-based prediction hardware and smart prefetch.
+<br><br>
+The AMD processor runs on new 1331 pin AM4 socket motherboards shared by FX models in high-end systems as
+ well as APU models. AM4 motherboards support DDR4 RAM, PCIe Gen3. Ryzen can function as a system on a chip
+ for low-cost, bare-bones setups. AM4 offers other chipset-enabled features, such as additional PCIe slots,
+ enhanced sound, SATA express, and USB 3.1 gen2 10Gbs connectivity. The shared socket also makes it easier 
+ to upgrade from base APU systems to discrete graphics cards along with FX CPUs for upgrades as well as 
+ those looking to at start entry level. Also of interest are claims of machine learning to predict 
+ instructions, making the CPU capable of learning how to run programs faster.
+ <br><br>
+ UP YOUR GAMING WITH THE AMD'S RYZEN CPU
+ </p>
+ <br><br><br>	
+ <hr>
+<br><br>
+<a href="#">EXPORE PRODUCTS</a> 
+
+</div>
+</div>
+
+<div class="nvidia">
+</div>
+
+<div class="pyke">
+
+<div class="amd">NVIDIA</div>
+<div class="p2">
+<p>What is GTX?<br>
+GTX stands for Giga Texel Shader eXtreme and is a variant under the brand GeForce owned by Nvidia. They were first
+ introduced in 2008 with series 200, codenamed Tesla. The first product in this series was GTX 260 and more expensive 
+ GTX 280. The introduction of these cards also affected the naming scheme and from the release of these cards onwards,
+ Nvidia GPUs used a naming scheme that has GTX/GT as a prefix followed by their model number. With every other major 
+ release in the series, Nvidia changed its microarchitecture on which its cards are based on i.e. series 200 & 300 were
+ based on Tesla architecture, series 400 & 500 were based on Fermi architecture and so on.
+The latest GTX series 16, consist of GTX 1650, GTX 1660, GTX 1660Ti, and its Super counterparts. These are based on 
+Turing architecture and were introduced in 2019.
+<br><br>
+What is RTX?<br>
+RTX stands for Ray Tracing Texel eXtreme and is also a variant under GeForce. The RTX cards were specially designed to
+ support real-time ray tracing which made the video looked more beautiful. These RTX cards include RTX 2060, RTX 2070, RTX 2080, RTX 2080Ti, and Super counterparts of 2060 
+ and 2070. These cards support the DXR extension in Microsoft’s DirectX12 and also DLSS (Deep Learning Super Sampling).
+ <br><br>
+LOSE YOURSELF ON TO THE VISUALS OF THE GAMES
+ </p>
+ <br>
+ <hr>
+<br>
+
+<a href="#">EXPORE PRODUCTS</a> 
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="radeon"></div>
+
+<div class="pyke">
+
+<div class="amd">RADEON</div>
+<div class="p2">
+<p>Radeon Graphics is the successor to the Rage line. Three different families of microarchitectures can be 
+roughly distinguished, the fixed-pipeline family, the unified shader model-families of TeraScale and Graphics Core Next.
+ ATI/AMD have developed different technologies, such as TruForm, HyperMemory, HyperZ, XGP, Eyefinity for multi-monitor 
+ setups, PowerPlay for power-saving, CrossFire (for multi-GPU) or Hybrid Graphics. A range of SIP blocks is also to be 
+ found on certain models in the Radeon products line: Unified Video Decoder, Video Coding Engine and TrueAudio.
+<br><br>
+The brand was previously only known as "ATI Radeon" until August 2010, when it was renamed to increase AMD's 
+brand awareness on a global scale. Products up to and including the HD 5000 series are branded as ATI Radeon, 
+while the HD 6000 series and beyond use the new AMD Radeon branding.
+ <br><br>
+BUDGET GPU THAT PACK A PUNCH
+ </p>
+ <br><br><br>	
+ <hr>
+<br><br>
+<a href="#">EXPORE PRODUCTS</a> 
+
+</div>
+</div>
+
+
+<!----legend----->
+<div class="am">
+ <h2 class="deku" data-text="go beyond, plus ultra">go beyond, plus ultra
+ </h2>
+</div>
+
+
+
+
+<!------footer--->
+
+<footer>
+	<div class="row">
+		<div class="col">
+		<div class="ft">PROJECT : UPGRADE</div>
+		<p>You can give us feed back on our social media pages and email us for any concerns.</p>
+		</div>
+		<div class="col">
+		<h5>Address</h5>
+		<p>Bulacan</p>
+		<p>San Miguel, Bantog</p>
+		<p>Luwasan, Purok 1</p>
+		<p class="email-id">mitoharold@gmail.com</p>
+		</div>
+		<div class="col">
+		<h5>Links</h5>
+			<ul>
+				<li><a href="Index.html">Home</a><li>
+				<li><a href="Product.html">Products</a><li>
+				<li><a href="Aboutus.html">About Us</a><li>
+				<li><a href="#">Membership</a><li>
+				<li><a href="Login.html">Account</a><li>
+			</ul>
+		</div>
+		
+		<div class="col">
+			<h5>Newsletter
+				<form>
+					<i class="fas fa-envelope-square"></i>
+					<input type="email" placeholder="Enter your email" reuquired>
+					<button type="submit"><i class="fas fa-arrow-right"></i></button>
+				</form>
+				<div class="social-icons">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter-square"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-youtube"></i>
+				
+				
+				</div>
+			<h5>
+		</div>
+	</div>
+	<hr>
+	<p class="ht"> PROJECT: UPGRADE 2021</p>
+</footer>
+
+</body>
+</html>

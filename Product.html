@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>Product</title>
+</head>
+<link rel="stylesheet" href="cssproduct.css">
+<script src="https://kit.fontawesome.com/1d8d68cd8a.js" crossorigin="anonymous"></script>
+<body>
+
+<!---------header------->
+
+<header>
+<div class="gs">
+<a href="Index.html" class="RYUUJI"> 
+PROJECT: UPGRADE</a></div>
+
+<div class="navigation">
+<ul>
+ <li><a href="Index.html">Home<i class="fas fa-home"></i></a></li>
+ <li><a href="Product.html">Product<i class="fas fa-shopping-bag"></i></a>
+      <div class="products">
+         <ul>
+		  <li><a href="ryproduct.html">AMD RYZEN</a></li>
+		  <li><a href="rxproduct.html">AMD RADEON</a></li>
+		  <li><a href="nvproducts.html">NVIDIA GRAPHICS</a></li>
+		 </ul>
+     </div>
+ </li>
+ <li><a href="Aboutus.html">About US<i class="fas fa-address-card"></i></a></li>
+ <li><a href="#">Membership<i class="fas fa-coins"></i></a>
+  <div class="member">
+         <ul>
+		  <li><a href="register.html">Sign-Up</a></li>
+		  <li><a href="points.html">P-UPGRADE Points</a></li>
+		 </ul>
+     </div>
+</li>
+<li><a href="Login.html">Account<i class="fas fa-user-circle"></i></i></a>
+</ul>
+</div>
+</div>
+</header>
+<!-----header end----->
+
+<!----slide show----->
+<div class="slbody">
+<div class="slr">
+	<div class="sls">
+	<!-----radio-btn-start---->
+		<input type="radio" name="radio-btn" id="radio1">
+		<input type="radio" name="radio-btn" id="radio2">
+		<input type="radio" name="radio-btn" id="radio3">
+		<input type="radio" name="radio-btn" id="radio4">
+		<input type="radio" name="radio-btn" id="radio5">
+	<!-----radio-btn-end---->
+	<!------startimgstart---->
+		<div class="sl first">
+			<img src="img/rxslides/rxslide4front.jpg" alt="">
+		</div>
+		<div class="sl" alt="">
+			<img src="img/nvidia/nrtxslideduke.jpg" alt="">
+		</div>
+		<div class="sl" alt="">
+			<img src="img/rxslides/rxslide6.png" alt="">
+		</div>
+		<div class="sl" alt="">
+			<img src="img/rxslides/rxslide2.jpg" alt="">
+		</div>
+		<div class="sl" alt="">
+			<img src="img/nslides/ngtxslide1.png" alt="">
+		</div>
+		<!------imgend---->
+		<!-------navauto----->
+		<div class="navi-auto">
+			<div class="auto-btn1"></div>
+			<div class="auto-btn1"></div>
+			<div class="auto-btn1"></div>
+			<div class="auto-btn1"></div>
+			<div class="auto-btn1"></div>
+		</div>
+		<!-------navautoend----->
+	</div>
+		<!-------navmanual---->
+		<div class="navi-manu">
+			<label for="radio1" class="manual-btn"></label>
+			<label for="radio2" class="manual-btn"></label>
+			<label for="radio3" class="manual-btn"></label>
+			<label for="radio4" class="manual-btn"></label>
+			<label for="radio5" class="manual-btn"></label>
+		</div>
+	<!-------navmualend--->
+</div>
+</div>
+<!------sliderend---->
+<script type="text/javascript">
+var counter = 1;
+setInterval(function()
+{
+	document.getElementById('radio' + counter).checked = true;
+	counter++;
+	if(counter > 5)
+	{
+	counter = 1;
+	}
+}, 4000);
+</script>
+
+<!----featured categories---->
+
+<div class="cate">
+<div class="contain">
+<div class="row">
+<hr>
+<br>
+<h1>MONTHLY DEAL &nbsp<i class="fas fa-wallet"></i></h1>
+<hr>
+<br>
+<br>
+		<div class="col-2">
+			<img src="img/amdryzen/r3800x.jpg">
+			<h3>RYZEN 7 3800X</h3>
+			<div class="price">
+			<p>Before - Php22,999 | Now - Php 18,990<br><br>
+				AMD | 2019 | Philippines<br><br>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="link">
+			<a href="ryproduct.html">VIEW PRODUCTS</a> 
+			</div>
+			</p>
+			</div>
+		</div>
+		<hr>
+			<br>
+		<div class="col-2">
+			<img src="img/amdryzen/r75800x.jpg">
+			<h3>RYZEN 7 5800X</h3>
+			<div class="price">
+			<p>Before - Php24,999 | Now - Php 20,990<br><br>
+				AMD | 2019 | Philippines<br><br>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="link">
+			<a href="ryproduct.html">VIEW PRODUCTS</a> 
+			</div>
+			</p>
+			</div>
+		</div>
+		<hr>
+			<br>
+		<div class="col-2">
+			<img src="img/amdryzen/r72700x.jpg">
+			<h3>RYZEN 7 2700X</h3>
+			<div class="price">
+			<p>Before - Php15,222 | Now - Php 12,990<br><br>
+				AMD | 2019 | Philippines<br><br>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<div class="link">
+			<a href="ryproduct.html">VIEW PRODUCTS</a> 
+			</div>
+			</p>
+			</div>
+		</div>
+		
+</div>
+<br>
+<br>
+<hr>
+</div>	
+
+
+<div class="contain">
+<br>
+	<h1>HOT ITEMS &nbsp <i class="fas fa-fire"></i></h1>
+<hr>
+
+	<div class="row">
+		<div class="col-2">
+		
+			<img src="img/nvidia/nrtx2080rogsuper.jpg">
+			<h2>Asus Rog Strix RTX 2080 super</h2>
+			<div class="p2">
+			<p>Nvidia | 2020 | Philippines<br>Php 115,905<br><br>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="link">
+			<a href="#">VIEW PRODUCTS</a> 
+			</div>
+			</P>
+			</div>
+		</div>
+		<hr>
+			<br>
+		<div class="col-2">
+			<img src="img/amdradeon/rx580rog.jpg">
+			<h2>Asus Rog Strix RX 580 OC8gb<br><br></h2>
+			<div class="p2">
+			<p>&nbsp Amd Radeon | 2016 | Philippines<br>&nbsp Php 8,905<br><br>&nbsp 
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<div class="link">
+			<a href="#">&nbsp&nbsp VIEW PRODUCTS</a> 
+			</div>
+			</p>
+			</div>
+			</div>
+			<hr>
+			<br>
+		<div class="col-2">
+			<img src="img/nvidia/ngtx1080msi.jpg">
+			<h2>MSI Gaming X GTX 1080 super</h2>
+			<div class="p2">
+			<p>Nvidia | 2014 | Philippines<br>Php 14,999<br><br>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="link">
+			<a href="#">VIEW PRODUCTS</a> 
+			</div>
+			</p>
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+<br>
+<br>
+<br>
+<hr>
+<div class="ryzenpro">
+<a href="ryproduct.html">RYZEN PRODUCT SECTION &nbsp<i class="fas fa-arrow-right"></i></a> 
+</div>
+<div class="hp">
+<a href="Index.html"><i class="fas fa-arrow-left"></i>&nbsp HOMEPAGE</a> 
+</div>
+<br>
+<br>
+<br>
+
+<footer>
+	<div class="row">
+		<div class="col">
+		<div class="ft">PROJECT : UPGRADE</div>
+		<p>You can give us feed back on our social media pages and email us for any concerns.</p>
+		</div>
+		<div class="col">
+		<h5>Address</h5>
+		<p>Bulacan</p>
+		<p>San Miguel, Bantog</p>
+		<p>Luwasan, Purok 1</p>
+		<p class="email-id">mitoharold@gmail.com</p>
+		</div>
+		<div class="col">
+		<h5>Links</h5>
+			<ul>
+				<li><a href="Index.html">Home</a><li>
+				<li><a href="Product.html">Products</a><li>
+				<li><a href="Aboutus.html">About Us</a><li>
+				<li><a href="#">Membership</a><li>
+				<li><a href="Login.html">Account</a><li>
+			</ul>
+		</div>
+		
+		<div class="col">
+			<h5>Newsletter
+				<form>
+					<i class="fas fa-envelope-square"></i>
+					<input type="email" placeholder="Enter your email" reuquired>
+					<button type="submit"><i class="fas fa-arrow-right"></i></button>
+				</form>
+				<div class="social-icons">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter-square"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-youtube"></i>
+				
+				
+				</div>
+			<h5>
+		</div>
+	</div>
+	<hr>
+	<p class="ht"> PROJECT: UPGRADE 2021</p>
+</footer>
+
+</body>
+</html>
